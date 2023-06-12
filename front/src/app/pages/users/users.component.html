@@ -1,0 +1,11 @@
+<div class="center">
+    <div class="global-box">
+        <h1>Liste des utilisateurs</h1>
+        <div class="user-list">
+            <div class="user-item" *ngFor="let user of users">
+                <p>{{user.email}}</p>
+            </div>
+        </div>
+        <button type="submit" (click)="logout()">Se déconnecter</button>
+    </div>
+</div>
