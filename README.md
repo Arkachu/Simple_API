@@ -16,3 +16,5 @@ La consultation de la page /users se fait automatiquement (et uniquement) après
 Un bouton pour se déconnecter est présent sur la page /users.
 
 J'ai également ajouté des liens "Déja inscrit ?" et "Pas encore inscrit ?" sur les pages /register et /login respectivement.
+
+La base de données est une base de donnée MongoDB sur Atlas.
